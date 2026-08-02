@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Generate CBDB 20260516 science/technical personnel network files."""
+"""Generate CBDB 20260516 science/technical personnel network files.
+
+This module extracts technical/scientific officials and political elites from a
+CBDB SQLite database snapshot. It computes network paths via BFS, formats node
+and edge data, validates graph integrity, and generates both a raw JSON dataset
+and an interactive D3.js visualization HTML file.
+"""
 
 from __future__ import annotations
 
@@ -10,14 +16,18 @@ from collections import Counter, defaultdict, deque
 from pathlib import Path
 from typing import Any
 
+# Base path definitions
 ROOT = Path(__file__).resolve().parent
 DB_PATH = ROOT.parent / "latest" / "cbdb_20260516.sqlite3"
 JSON_OUT = ROOT / "science_network_data_20260516.json"
 HTML_OUT = ROOT / "network_20260516.html"
 D3_SOURCE = ROOT / "d3.v7.min.js"
+
+# Algorithmic pathfinding limits
 MAX_HIGH_PATH_DISTANCE = 6
 MAX_HIGH_PATHS_PER_MAIN = 8
 
+# Target keywords used to identify technical/scientific bureaucracy positions
 TECHNICAL_KEYWORDS = [
     "工部", "司天", "欽天", "钦天", "太醫", "太医", "都水", "軍器", "军器", "將作", "将作",
     "天文", "算學", "算学", "算曆", "算历", "曆算", "历算", "造曆", "造历",
@@ -27,6 +37,7 @@ TECHNICAL_KEYWORDS = [
 ]
 TECHNICAL_RE = re.compile("|".join(re.escape(k) for k in TECHNICAL_KEYWORDS))
 
+# Department groupings for categorizing technical office roles and color coding
 BUREAU_GROUPS = [
     {"key": "astronomical", "zh": "天文/历算", "en": "Astronomical", "color": "#6f8fa6", "pattern": re.compile(r"司天|欽天|钦天|天文|算學|算学|算曆|算历|曆算|历算|造曆|造历|推算|靈臺|灵台")},
     {"key": "medical", "zh": "医学/医官", "en": "Medical", "color": "#b9828c", "pattern": re.compile(r"太醫|太医|醫官|医官|醫學|医学|醫正|医正|醫生|医生|醫士|医士|醫人|医人|御醫|御医|翰林醫|翰林医")},
@@ -37,6 +48,7 @@ BUREAU_GROUPS = [
     {"key": "other_technical", "zh": "其他技术官职", "en": "Other technical", "color": "#8fa37a", "pattern": re.compile(r".*")},
 ]
 
+# High official keyword filters to isolate key political elites
 HIGH_OFFICIAL_KEYWORDS = [
     "同中書門下二品", "同中书门下二品", "同中書門下三品", "同中书门下三品",
     "同中書門下平章事", "同中书门下平章事", "同鳳閣鸞臺", "同凤阁鸾台",
@@ -45,12 +57,15 @@ HIGH_OFFICIAL_KEYWORDS = [
     "軍機大臣", "军机大臣",
 ]
 HIGH_OFFICIAL_RE = re.compile("|".join(re.escape(k) for k in HIGH_OFFICIAL_KEYWORDS))
+
+# Exclusion criteria to filter out clerical/subordinate roles matching high official patterns
 HIGH_OFFICIAL_EXCLUDE_RE = re.compile(
     r"內閣中書|内阁中书|中書舍人|中书舍人|中書省|中书省|中書檢正|中书检正|"
     r"門下省|门下省|中書五房|中书五房|書令史|令史|習學|习学|孔目|吏房|戶房|户房|"
     r"禮房|礼房|刑房|兵房|工房|開拆|章奏|催驅|点檢|點檢"
 )
 
+# Mandatory database tables required for graph extraction
 REQUIRED_TABLES = {"BIOG_MAIN", "OFFICE_CODES", "POSTED_TO_OFFICE_DATA", "KIN_DATA", "ASSOC_DATA", "ASSOC_CODES", "KINSHIP_CODES", "DYNASTIES"}
 
 
