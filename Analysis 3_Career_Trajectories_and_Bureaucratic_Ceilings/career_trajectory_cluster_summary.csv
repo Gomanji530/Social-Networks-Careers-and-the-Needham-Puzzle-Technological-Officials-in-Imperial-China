@@ -1,0 +1,4 @@
+cluster,cluster_label,nodes,posting_rows,mean_postings_per_node,median_postings_per_node,mean_collapsed_sequence_length,pct_nodes_with_two_or_more_sequenced_postings,pct_nodes_with_any_year,pct_high_official,mean_career_span_years,median_career_span_years,top_first_state,top_last_state,top_dominant_domain,top_career_type
+cluster1_song_and_before,Song and before,1613,15998,9.918164910105393,7.0,5.545567265964042,82.2691,63.6702,6.8196,22.658564814814813,12.0,category_unknown_category,category_unknown_category,other,career_type_1
+cluster2_yuan_ming,Yuan and Ming,1020,7266,7.123529411764705,4.0,2.791176470588235,70.6863,28.0392,0.7843,24.871134020618555,26.5,category_missing_category,category_missing_category,other,career_type_1
+cluster3_qing_after,Qing and after,430,3268,7.6,6.0,2.7325581395348837,93.2558,45.1163,0.6977,,,category_missing_category,category_missing_category,other,career_type_2

@@ -1,0 +1,273 @@
+cluster,cluster_label,from_state,to_state,transition_count,share_of_cluster_transitions_pct
+cluster1_song_and_before,Song and before,category_unknown_category,domain_military_industrial,941,12.8342
+cluster1_song_and_before,Song and before,domain_military_industrial,category_unknown_category,843,11.4975
+cluster1_song_and_before,Song and before,domain_construction,category_unknown_category,720,9.82
+cluster1_song_and_before,Song and before,category_unknown_category,domain_construction,659,8.988
+cluster1_song_and_before,Song and before,domain_military_industrial,domain_construction,303,4.1326
+cluster1_song_and_before,Song and before,domain_construction,domain_military_industrial,286,3.9007
+cluster1_song_and_before,Song and before,domain_military_industrial,category_Nominal supernumerary appointment,267,3.6416
+cluster1_song_and_before,Song and before,category_Nominal supernumerary appointment,domain_military_industrial,265,3.6143
+cluster1_song_and_before,Song and before,category_Titular office,domain_military_industrial,239,3.2597
+cluster1_song_and_before,Song and before,domain_military_industrial,category_Titular office,220,3.0005
+cluster1_song_and_before,Song and before,category_Salary rank,domain_military_industrial,178,2.4277
+cluster1_song_and_before,Song and before,domain_military_industrial,category_missing_category,147,2.0049
+cluster1_song_and_before,Song and before,category_unknown_category,category_missing_category,119,1.623
+cluster1_song_and_before,Song and before,domain_military_industrial,category_Salary rank,114,1.5548
+cluster1_song_and_before,Song and before,category_Nominal supernumerary appointment,category_unknown_category,78,1.0638
+cluster1_song_and_before,Song and before,category_Titular office,category_unknown_category,78,1.0638
+cluster1_song_and_before,Song and before,category_missing_category,domain_military_industrial,77,1.0502
+cluster1_song_and_before,Song and before,category_Salary rank,category_Nominal supernumerary appointment,73,0.9956
+cluster1_song_and_before,Song and before,domain_construction,category_missing_category,65,0.8865
+cluster1_song_and_before,Song and before,category_unknown_category,category_Nominal supernumerary appointment,58,0.7911
+cluster1_song_and_before,Song and before,category_Nominal supernumerary appointment,domain_construction,51,0.6956
+cluster1_song_and_before,Song and before,domain_military_industrial,category_Concurrent appointment,50,0.6819
+cluster1_song_and_before,Song and before,category_unknown_category,category_Titular office,48,0.6547
+cluster1_song_and_before,Song and before,category_unknown_category,category_Salary rank,47,0.641
+cluster1_song_and_before,Song and before,category_unknown_category,domain_hydraulic,45,0.6137
+cluster1_song_and_before,Song and before,category_Nobility,category_unknown_category,42,0.5728
+cluster1_song_and_before,Song and before,domain_hydraulic,category_unknown_category,39,0.5319
+cluster1_song_and_before,Song and before,category_Concurrent appointment,domain_military_industrial,38,0.5183
+cluster1_song_and_before,Song and before,category_missing_category,category_unknown_category,38,0.5183
+cluster1_song_and_before,Song and before,category_unknown_category,category_Nobility,37,0.5046
+cluster1_song_and_before,Song and before,category_Nominal supernumerary appointment,category_Titular office,36,0.491
+cluster1_song_and_before,Song and before,category_missing_category,domain_construction,36,0.491
+cluster1_song_and_before,Song and before,category_unknown_category,category_Concurrent appointment,35,0.4774
+cluster1_song_and_before,Song and before,category_Nominal supernumerary appointment,category_Salary rank,34,0.4637
+cluster1_song_and_before,Song and before,category_Titular office,domain_construction,30,0.4092
+cluster1_song_and_before,Song and before,category_Commission,domain_military_industrial,29,0.3955
+cluster1_song_and_before,Song and before,domain_construction,category_Titular office,29,0.3955
+cluster1_song_and_before,Song and before,category_unknown_category,domain_astronomical,26,0.3546
+cluster1_song_and_before,Song and before,domain_astronomical,category_unknown_category,25,0.341
+cluster1_song_and_before,Song and before,category_Salary rank,category_unknown_category,22,0.3001
+cluster1_song_and_before,Song and before,domain_military_industrial,category_Commission,21,0.2864
+cluster1_song_and_before,Song and before,category_Concurrent appointment,category_unknown_category,19,0.2591
+cluster1_song_and_before,Song and before,category_Titular office,category_Nominal supernumerary appointment,18,0.2455
+cluster1_song_and_before,Song and before,domain_construction,category_Nominal supernumerary appointment,18,0.2455
+cluster1_song_and_before,Song and before,domain_construction,category_Salary rank,18,0.2455
+cluster1_song_and_before,Song and before,category_unknown_category,category_Commission,17,0.2319
+cluster1_song_and_before,Song and before,category_Commission,domain_construction,16,0.2182
+cluster1_song_and_before,Song and before,category_Office,domain_military_industrial,16,0.2182
+cluster1_song_and_before,Song and before,domain_military_industrial,category_Office,16,0.2182
+cluster1_song_and_before,Song and before,category_Salary rank,domain_construction,15,0.2046
+cluster1_song_and_before,Song and before,category_Titular office,category_Commission,15,0.2046
+cluster1_song_and_before,Song and before,domain_hydraulic,domain_military_industrial,15,0.2046
+cluster1_song_and_before,Song and before,category_Commission,category_Classification title,14,0.1909
+cluster1_song_and_before,Song and before,category_Concurrent appointment,category_Nominal supernumerary appointment,14,0.1909
+cluster1_song_and_before,Song and before,category_Salary rank,category_Office,13,0.1773
+cluster1_song_and_before,Song and before,category_Commission,category_unknown_category,12,0.1637
+cluster1_song_and_before,Song and before,domain_construction,category_Commission,12,0.1637
+cluster1_song_and_before,Song and before,category_Classification title,category_Commission,11,0.15
+cluster1_song_and_before,Song and before,category_Office,category_Commission,11,0.15
+cluster1_song_and_before,Song and before,domain_construction,category_Office,11,0.15
+cluster1_song_and_before,Song and before,category_Commission,category_Office,10,0.1364
+cluster1_song_and_before,Song and before,category_Commission,category_Titular office,10,0.1364
+cluster1_song_and_before,Song and before,category_Concurrent appointment,category_Salary rank,10,0.1364
+cluster1_song_and_before,Song and before,category_Dignitary,category_unknown_category,10,0.1364
+cluster1_song_and_before,Song and before,category_Office,domain_construction,10,0.1364
+cluster1_song_and_before,Song and before,category_Classification title,domain_military_industrial,9,0.1227
+cluster1_song_and_before,Song and before,category_Dignitary,category_missing_category,9,0.1227
+cluster1_song_and_before,Song and before,category_unknown_category,category_Dignitary,9,0.1227
+cluster1_song_and_before,Song and before,domain_military_industrial,category_Nobility,9,0.1227
+cluster1_song_and_before,Song and before,domain_military_industrial,domain_hydraulic,9,0.1227
+cluster1_song_and_before,Song and before,category_Commission,category_missing_category,8,0.1091
+cluster1_song_and_before,Song and before,category_Honorary office,category_unknown_category,8,0.1091
+cluster1_song_and_before,Song and before,category_Office,category_Salary rank,8,0.1091
+cluster1_song_and_before,Song and before,category_Office,category_Titular office,8,0.1091
+cluster1_song_and_before,Song and before,category_unknown_category,category_Office,8,0.1091
+cluster1_song_and_before,Song and before,domain_construction,category_Classification title,8,0.1091
+cluster1_song_and_before,Song and before,domain_medical,category_unknown_category,8,0.1091
+cluster1_song_and_before,Song and before,domain_military_industrial,category_Classification title,8,0.1091
+cluster1_song_and_before,Song and before,category_Concurrent appointment,category_Titular office,7,0.0955
+cluster1_song_and_before,Song and before,category_Concurrent appointment,category_missing_category,7,0.0955
+cluster1_song_and_before,Song and before,category_Office,category_unknown_category,7,0.0955
+cluster1_song_and_before,Song and before,category_Titular office,category_Concurrent appointment,7,0.0955
+cluster1_song_and_before,Song and before,category_missing_category,category_Classification title,7,0.0955
+cluster1_song_and_before,Song and before,category_missing_category,category_Commission,7,0.0955
+cluster1_song_and_before,Song and before,category_unknown_category,category_Honorary office,7,0.0955
+cluster1_song_and_before,Song and before,category_unknown_category,domain_medical,7,0.0955
+cluster1_song_and_before,Song and before,domain_construction,category_Dignitary,7,0.0955
+cluster1_song_and_before,Song and before,domain_construction,category_Nobility,7,0.0955
+cluster1_song_and_before,Song and before,domain_construction,domain_hydraulic,7,0.0955
+cluster1_song_and_before,Song and before,category_Classification title,category_missing_category,6,0.0818
+cluster1_song_and_before,Song and before,category_Nobility,category_missing_category,6,0.0818
+cluster1_song_and_before,Song and before,category_Nobility,domain_military_industrial,6,0.0818
+cluster1_song_and_before,Song and before,category_Nominal supernumerary appointment,category_Concurrent appointment,6,0.0818
+cluster1_song_and_before,Song and before,category_Nominal supernumerary appointment,category_missing_category,6,0.0818
+cluster1_song_and_before,Song and before,category_missing_category,category_Titular office,6,0.0818
+cluster1_song_and_before,Song and before,category_unknown_category,category_Classification title,6,0.0818
+cluster1_song_and_before,Song and before,domain_military_industrial,category_Prestige title,6,0.0818
+cluster1_song_and_before,Song and before,category_Classification title,domain_construction,5,0.0682
+cluster1_song_and_before,Song and before,category_Concurrent appointment,domain_construction,5,0.0682
+cluster1_song_and_before,Song and before,category_Nobility,category_Office,5,0.0682
+cluster1_song_and_before,Song and before,category_Office,category_missing_category,5,0.0682
+cluster1_song_and_before,Song and before,category_Prestige title,category_Dignitary,5,0.0682
+cluster1_song_and_before,Song and before,category_Prestige title,category_Titular office,5,0.0682
+cluster1_song_and_before,Song and before,category_Salary rank,category_Commission,5,0.0682
+cluster1_song_and_before,Song and before,category_Salary rank,category_Concurrent appointment,5,0.0682
+cluster1_song_and_before,Song and before,category_Titular office,category_Salary rank,5,0.0682
+cluster1_song_and_before,Song and before,category_Titular office,category_missing_category,5,0.0682
+cluster1_song_and_before,Song and before,category_missing_category,category_Dignitary,5,0.0682
+cluster1_song_and_before,Song and before,category_missing_category,category_Salary rank,5,0.0682
+cluster1_song_and_before,Song and before,domain_astronomical,domain_military_industrial,5,0.0682
+cluster1_song_and_before,Song and before,domain_construction,category_Prestige title,5,0.0682
+cluster1_song_and_before,Song and before,category_Classification title,category_Office,4,0.0546
+cluster1_song_and_before,Song and before,category_Classification title,category_unknown_category,4,0.0546
+cluster1_song_and_before,Song and before,category_Dignitary,category_Office,4,0.0546
+cluster1_song_and_before,Song and before,category_Nominal supernumerary appointment,category_Office,4,0.0546
+cluster1_song_and_before,Song and before,category_Office,category_Classification title,4,0.0546
+cluster1_song_and_before,Song and before,category_Office,category_Concurrent appointment,4,0.0546
+cluster1_song_and_before,Song and before,category_Prestige title,domain_military_industrial,4,0.0546
+cluster1_song_and_before,Song and before,category_Salary rank,category_missing_category,4,0.0546
+cluster1_song_and_before,Song and before,category_Titular office,category_Office,4,0.0546
+cluster1_song_and_before,Song and before,domain_hydraulic,domain_construction,4,0.0546
+cluster1_song_and_before,Song and before,category_Classification title,category_Titular office,3,0.0409
+cluster1_song_and_before,Song and before,category_Commission,category_Dignitary,3,0.0409
+cluster1_song_and_before,Song and before,category_Commission,category_Salary rank,3,0.0409
+cluster1_song_and_before,Song and before,category_Concurrent appointment,category_Office,3,0.0409
+cluster1_song_and_before,Song and before,category_Dignitary,category_Commission,3,0.0409
+cluster1_song_and_before,Song and before,category_Dignitary,category_Nobility,3,0.0409
+cluster1_song_and_before,Song and before,category_Honorary office,category_Commission,3,0.0409
+cluster1_song_and_before,Song and before,category_Honorary office,category_Titular office,3,0.0409
+cluster1_song_and_before,Song and before,category_Nominal supernumerary appointment,category_Commission,3,0.0409
+cluster1_song_and_before,Song and before,category_Office,category_Honorary office,3,0.0409
+cluster1_song_and_before,Song and before,category_Office,category_Sinecure post,3,0.0409
+cluster1_song_and_before,Song and before,category_Prestige title,category_unknown_category,3,0.0409
+cluster1_song_and_before,Song and before,category_Prestige title,domain_construction,3,0.0409
+cluster1_song_and_before,Song and before,category_Sinecure post,domain_military_industrial,3,0.0409
+cluster1_song_and_before,Song and before,category_Titular office,category_Classification title,3,0.0409
+cluster1_song_and_before,Song and before,category_missing_category,category_Office,3,0.0409
+cluster1_song_and_before,Song and before,category_missing_category,category_Prestige title,3,0.0409
+cluster1_song_and_before,Song and before,category_unknown_category,category_Prestige title,3,0.0409
+cluster1_song_and_before,Song and before,domain_construction,category_Concurrent appointment,3,0.0409
+cluster1_song_and_before,Song and before,domain_construction,domain_astronomical,3,0.0409
+cluster1_song_and_before,Song and before,domain_hydraulic,category_missing_category,3,0.0409
+cluster1_song_and_before,Song and before,category_Classification title,category_Nobility,2,0.0273
+cluster1_song_and_before,Song and before,category_Classification title,category_Prestige title,2,0.0273
+cluster1_song_and_before,Song and before,category_Commission,category_Honorary office,2,0.0273
+cluster1_song_and_before,Song and before,category_Commission,category_Nominal supernumerary appointment,2,0.0273
+cluster1_song_and_before,Song and before,category_Commission,category_Prestige title,2,0.0273
+cluster1_song_and_before,Song and before,category_Concurrent appointment,category_Commission,2,0.0273
+cluster1_song_and_before,Song and before,category_Dignitary,domain_construction,2,0.0273
+cluster1_song_and_before,Song and before,category_Nobility,category_Commission,2,0.0273
+cluster1_song_and_before,Song and before,category_Nobility,category_Salary rank,2,0.0273
+cluster1_song_and_before,Song and before,category_Nobility,domain_construction,2,0.0273
+cluster1_song_and_before,Song and before,category_Nominal supernumerary appointment,category_Nobility,2,0.0273
+cluster1_song_and_before,Song and before,category_Office,category_Dignitary,2,0.0273
+cluster1_song_and_before,Song and before,category_Office,category_Nobility,2,0.0273
+cluster1_song_and_before,Song and before,category_Office,category_Prestige title,2,0.0273
+cluster1_song_and_before,Song and before,category_Office,domain_hydraulic,2,0.0273
+cluster1_song_and_before,Song and before,category_Prestige title,category_Classification title,2,0.0273
+cluster1_song_and_before,Song and before,category_Prestige title,category_Office,2,0.0273
+cluster1_song_and_before,Song and before,category_Prestige title,category_missing_category,2,0.0273
+cluster1_song_and_before,Song and before,category_Salary rank,category_Nobility,2,0.0273
+cluster1_song_and_before,Song and before,category_Sinecure post,category_Salary rank,2,0.0273
+cluster1_song_and_before,Song and before,category_Titular office,category_Dignitary,2,0.0273
+cluster1_song_and_before,Song and before,category_Titular office,category_Nobility,2,0.0273
+cluster1_song_and_before,Song and before,category_Titular office,category_Prestige title,2,0.0273
+cluster1_song_and_before,Song and before,category_missing_category,category_Concurrent appointment,2,0.0273
+cluster1_song_and_before,Song and before,category_missing_category,domain_hydraulic,2,0.0273
+cluster1_song_and_before,Song and before,domain_construction,category_Honorary office,2,0.0273
+cluster1_song_and_before,Song and before,domain_hydraulic,category_Nominal supernumerary appointment,2,0.0273
+cluster1_song_and_before,Song and before,domain_medical,domain_military_industrial,2,0.0273
+cluster1_song_and_before,Song and before,domain_military_industrial,category_Sinecure post,2,0.0273
+cluster1_song_and_before,Song and before,domain_military_industrial,domain_astronomical,2,0.0273
+cluster1_song_and_before,Song and before,category_Classification title,category_Dignitary,1,0.0136
+cluster1_song_and_before,Song and before,category_Classification title,category_Nominal supernumerary appointment,1,0.0136
+cluster1_song_and_before,Song and before,category_Classification title,category_Salary rank,1,0.0136
+cluster1_song_and_before,Song and before,category_Commission,category_Complimentary censorial title,1,0.0136
+cluster1_song_and_before,Song and before,category_Commission,category_Concurrent appointment,1,0.0136
+cluster1_song_and_before,Song and before,category_Complimentary censorial title,category_Office,1,0.0136
+cluster1_song_and_before,Song and before,category_Complimentary censorial title,domain_hydraulic,1,0.0136
+cluster1_song_and_before,Song and before,category_Dignitary,category_Honorary office,1,0.0136
+cluster1_song_and_before,Song and before,category_Dignitary,category_Prestige title,1,0.0136
+cluster1_song_and_before,Song and before,category_Dignitary,category_Salary rank,1,0.0136
+cluster1_song_and_before,Song and before,category_Dignitary,domain_military_industrial,1,0.0136
+cluster1_song_and_before,Song and before,category_Honorary office,category_Dignitary,1,0.0136
+cluster1_song_and_before,Song and before,category_Honorary office,category_Nobility,1,0.0136
+cluster1_song_and_before,Song and before,category_Nobility,category_Concurrent appointment,1,0.0136
+cluster1_song_and_before,Song and before,category_Nobility,category_Dignitary,1,0.0136
+cluster1_song_and_before,Song and before,category_Nobility,category_Honorary office,1,0.0136
+cluster1_song_and_before,Song and before,category_Nobility,category_Nominal supernumerary appointment,1,0.0136
+cluster1_song_and_before,Song and before,category_Nominal supernumerary appointment,category_Classification title,1,0.0136
+cluster1_song_and_before,Song and before,category_Nominal supernumerary appointment,category_Prestige title,1,0.0136
+cluster1_song_and_before,Song and before,category_Nominal supernumerary appointment,category_Sinecure post,1,0.0136
+cluster1_song_and_before,Song and before,category_Office,category_Nominal supernumerary appointment,1,0.0136
+cluster1_song_and_before,Song and before,category_Prestige title,category_Commission,1,0.0136
+cluster1_song_and_before,Song and before,category_Prestige title,category_Honorary office,1,0.0136
+cluster1_song_and_before,Song and before,category_Prestige title,category_Nobility,1,0.0136
+cluster1_song_and_before,Song and before,category_Salary rank,category_Honorary office,1,0.0136
+cluster1_song_and_before,Song and before,category_Salary rank,category_Prestige title,1,0.0136
+cluster1_song_and_before,Song and before,category_Salary rank,category_Sinecure post,1,0.0136
+cluster1_song_and_before,Song and before,category_Salary rank,domain_hydraulic,1,0.0136
+cluster1_song_and_before,Song and before,category_Sinecure post,category_Commission,1,0.0136
+cluster1_song_and_before,Song and before,category_Sinecure post,category_Nobility,1,0.0136
+cluster1_song_and_before,Song and before,category_Sinecure post,category_Office,1,0.0136
+cluster1_song_and_before,Song and before,category_Sinecure post,category_Titular office,1,0.0136
+cluster1_song_and_before,Song and before,category_Sinecure post,category_unknown_category,1,0.0136
+cluster1_song_and_before,Song and before,category_Titular office,category_Sinecure post,1,0.0136
+cluster1_song_and_before,Song and before,category_Titular office,domain_hydraulic,1,0.0136
+cluster1_song_and_before,Song and before,category_missing_category,category_Complimentary censorial title,1,0.0136
+cluster1_song_and_before,Song and before,category_missing_category,category_Nobility,1,0.0136
+cluster1_song_and_before,Song and before,category_missing_category,category_Nominal supernumerary appointment,1,0.0136
+cluster1_song_and_before,Song and before,domain_astronomical,category_missing_category,1,0.0136
+cluster1_song_and_before,Song and before,domain_astronomical,domain_construction,1,0.0136
+cluster1_song_and_before,Song and before,domain_hydraulic,category_Classification title,1,0.0136
+cluster1_song_and_before,Song and before,domain_hydraulic,category_Commission,1,0.0136
+cluster1_song_and_before,Song and before,domain_hydraulic,category_Concurrent appointment,1,0.0136
+cluster1_song_and_before,Song and before,domain_hydraulic,category_Salary rank,1,0.0136
+cluster1_song_and_before,Song and before,domain_medical,domain_hydraulic,1,0.0136
+cluster1_song_and_before,Song and before,domain_military_industrial,domain_medical,1,0.0136
+cluster2_yuan_ming,Yuan and Ming,category_missing_category,domain_construction,587,32.1292
+cluster2_yuan_ming,Yuan and Ming,domain_construction,category_missing_category,569,31.144
+cluster2_yuan_ming,Yuan and Ming,domain_construction,category_unknown_category,101,5.5282
+cluster2_yuan_ming,Yuan and Ming,domain_hydraulic,category_missing_category,90,4.9261
+cluster2_yuan_ming,Yuan and Ming,category_missing_category,domain_hydraulic,85,4.6524
+cluster2_yuan_ming,Yuan and Ming,category_unknown_category,domain_construction,75,4.1051
+cluster2_yuan_ming,Yuan and Ming,domain_military_industrial,category_missing_category,61,3.3388
+cluster2_yuan_ming,Yuan and Ming,category_missing_category,domain_military_industrial,56,3.0651
+cluster2_yuan_ming,Yuan and Ming,category_unknown_category,category_missing_category,44,2.4083
+cluster2_yuan_ming,Yuan and Ming,category_missing_category,category_unknown_category,22,1.2042
+cluster2_yuan_ming,Yuan and Ming,domain_construction,domain_hydraulic,21,1.1494
+cluster2_yuan_ming,Yuan and Ming,category_unknown_category,domain_hydraulic,15,0.821
+cluster2_yuan_ming,Yuan and Ming,domain_hydraulic,domain_construction,14,0.7663
+cluster2_yuan_ming,Yuan and Ming,domain_construction,domain_military_industrial,13,0.7115
+cluster2_yuan_ming,Yuan and Ming,category_missing_category,domain_astronomical,10,0.5473
+cluster2_yuan_ming,Yuan and Ming,domain_astronomical,category_missing_category,10,0.5473
+cluster2_yuan_ming,Yuan and Ming,domain_hydraulic,category_unknown_category,10,0.5473
+cluster2_yuan_ming,Yuan and Ming,domain_medical,category_unknown_category,9,0.4926
+cluster2_yuan_ming,Yuan and Ming,domain_medical,category_missing_category,7,0.3831
+cluster2_yuan_ming,Yuan and Ming,domain_hydraulic,domain_military_industrial,4,0.2189
+cluster2_yuan_ming,Yuan and Ming,category_unknown_category,domain_astronomical,3,0.1642
+cluster2_yuan_ming,Yuan and Ming,category_unknown_category,domain_medical,3,0.1642
+cluster2_yuan_ming,Yuan and Ming,domain_military_industrial,domain_construction,3,0.1642
+cluster2_yuan_ming,Yuan and Ming,domain_astronomical,category_unknown_category,2,0.1095
+cluster2_yuan_ming,Yuan and Ming,domain_astronomical,domain_construction,2,0.1095
+cluster2_yuan_ming,Yuan and Ming,category_Complimentary censorial title,category_missing_category,1,0.0547
+cluster2_yuan_ming,Yuan and Ming,category_Dignitary,category_missing_category,1,0.0547
+cluster2_yuan_ming,Yuan and Ming,category_Titular office,domain_construction,1,0.0547
+cluster2_yuan_ming,Yuan and Ming,category_Titular office,domain_hydraulic,1,0.0547
+cluster2_yuan_ming,Yuan and Ming,category_missing_category,category_Complimentary censorial title,1,0.0547
+cluster2_yuan_ming,Yuan and Ming,category_missing_category,category_Dignitary,1,0.0547
+cluster2_yuan_ming,Yuan and Ming,category_missing_category,domain_medical,1,0.0547
+cluster2_yuan_ming,Yuan and Ming,category_unknown_category,domain_military_industrial,1,0.0547
+cluster2_yuan_ming,Yuan and Ming,domain_construction,domain_astronomical,1,0.0547
+cluster2_yuan_ming,Yuan and Ming,domain_military_industrial,domain_astronomical,1,0.0547
+cluster2_yuan_ming,Yuan and Ming,domain_military_industrial,domain_hydraulic,1,0.0547
+cluster3_qing_after,Qing and after,category_missing_category,domain_construction,268,35.9732
+cluster3_qing_after,Qing and after,domain_construction,category_missing_category,232,31.1409
+cluster3_qing_after,Qing and after,category_missing_category,domain_hydraulic,83,11.1409
+cluster3_qing_after,Qing and after,domain_hydraulic,category_missing_category,72,9.6644
+cluster3_qing_after,Qing and after,category_missing_category,domain_military_industrial,23,3.0872
+cluster3_qing_after,Qing and after,domain_military_industrial,category_missing_category,23,3.0872
+cluster3_qing_after,Qing and after,domain_construction,domain_hydraulic,14,1.8792
+cluster3_qing_after,Qing and after,domain_hydraulic,domain_construction,11,1.4765
+cluster3_qing_after,Qing and after,category_missing_category,category_unknown_category,4,0.5369
+cluster3_qing_after,Qing and after,category_unknown_category,category_missing_category,4,0.5369
+cluster3_qing_after,Qing and after,category_unknown_category,domain_construction,2,0.2685
+cluster3_qing_after,Qing and after,domain_hydraulic,domain_military_industrial,2,0.2685
+cluster3_qing_after,Qing and after,domain_medical,category_missing_category,2,0.2685
+cluster3_qing_after,Qing and after,category_missing_category,category_Dignitary,1,0.1342
+cluster3_qing_after,Qing and after,category_missing_category,domain_medical,1,0.1342
+cluster3_qing_after,Qing and after,domain_construction,category_unknown_category,1,0.1342
+cluster3_qing_after,Qing and after,domain_construction,domain_medical,1,0.1342
+cluster3_qing_after,Qing and after,domain_medical,domain_military_industrial,1,0.1342
