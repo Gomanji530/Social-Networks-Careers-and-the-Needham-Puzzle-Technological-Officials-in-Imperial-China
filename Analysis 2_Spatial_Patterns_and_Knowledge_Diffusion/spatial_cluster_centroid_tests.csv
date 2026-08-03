@@ -1,0 +1,4 @@
+cluster_a,cluster_a_label,cluster_b,cluster_b_label,observed_centroid_distance_km,permutation_mean_distance_km,permutation_sd_distance_km,permutations,p_value_greater_equal,seed
+cluster1_song_and_before,Song and before,cluster2_yuan_ming,Yuan and Ming,220.9600636039496,20.918368176000573,11.153905266485015,999,0.001,20260608
+cluster1_song_and_before,Song and before,cluster3_qing_after,Qing and after,145.51605828560022,34.6674163731634,18.393960795944718,999,0.001,20260608
+cluster2_yuan_ming,Yuan and Ming,cluster3_qing_after,Qing and after,111.41337738865754,35.5087779335661,18.4696693904683,999,0.003,20260608
