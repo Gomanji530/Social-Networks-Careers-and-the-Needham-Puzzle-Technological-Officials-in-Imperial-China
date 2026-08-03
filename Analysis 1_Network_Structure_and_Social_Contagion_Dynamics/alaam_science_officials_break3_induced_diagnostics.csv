@@ -1,0 +1,4 @@
+cluster,node_count,edge_count,outcome_ones,outcome_share_pct,deviance,mean_predicted_probability,observed_activity,observed_contagion_edges
+cluster1_song_and_before,3063,1158,1613,52.66,2395.8948139856648,0.5266337452842562,1613,929
+cluster2_yuan_ming,3063,1158,1020,33.3,2360.499639735689,0.3330076513127875,1020,221
+cluster3_qing_after,3063,1158,430,14.04,1582.6271360637643,0.1404424878595542,430,4
