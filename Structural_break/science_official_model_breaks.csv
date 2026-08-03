@@ -1,0 +1,3 @@
+break_bin_start,break_bin_end,break_year_used,nearest_transition_year,nearest_transition_label,distance_years,absolute_distance_years,aligned_with_dynastic_transition,tolerance_years,selected_break_count,selected_bic
+1250,1299,1250,1279,Song-Yuan transition,-29,29,1,50,2,11525.662424
+1600,1649,1600,1644,Ming-Qing transition,-44,44,1,50,2,11525.662424
