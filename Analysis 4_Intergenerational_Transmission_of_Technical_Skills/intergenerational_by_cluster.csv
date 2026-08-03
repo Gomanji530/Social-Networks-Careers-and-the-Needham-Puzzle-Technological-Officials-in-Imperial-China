@@ -1,0 +1,4 @@
+child_cluster,child_cluster_label,father_son_pairs,science_children,science_child_rate_pct,pairs_with_science_father,science_father_rate_pct,civil_exam_children,civil_exam_child_rate_pct,pairs_with_civil_exam_father,civil_exam_father_rate_pct
+cluster1_song_and_before,Song and before,58196,1271,2.184,1768,3.038,7482,12.8566,6556,11.2654
+cluster2_yuan_ming,Yuan and Ming,40159,1194,2.9732,642,1.5986,33686,83.8816,4187,10.4261
+cluster3_qing_after,Qing and after,9359,75,0.8014,273,2.917,1225,13.089,3099,33.1125

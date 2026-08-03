@@ -1,0 +1,5 @@
+model,father_indicator,father_indicator_value,pairs,child_positive_count,child_positive_rate_pct
+science_official_transmission,father_is_science_official,0,113620,2365,2.0815
+science_official_transmission,father_is_science_official,1,2692,175,6.5007
+civil_exam_transmission,father_has_civil_exam,0,102011,39139,38.3674
+civil_exam_transmission,father_has_civil_exam,1,14301,3672,25.6765
