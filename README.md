@@ -44,6 +44,7 @@ The repository structure directly mirrors the analytical workflow and empirical 
 | `Analysis 4_.../` | **V.4 Analysis 4: Intergenerational Transmission of Technical Skills** | Extraction of father-son kinship pairs from CBDB `KIN_DATA` to model status inheritance via binary logit, benchmarked against civil examination (Jinshi) rates. |
 
 ## 📁 Repository Structure
+```text
 .
 ├── Analysis 1_Network_Structure_and_Social_Contagion_Dynamics/
 │   ├── alaam_science_officials.py                    # ALAAM model driver script
@@ -86,7 +87,7 @@ The repository structure directly mirrors the analytical workflow and empirical 
 ├── LICENSE                                           # MIT License
 ├── pyproject.toml                                    # Project metadata and dependencies configuration
 └── README.md                                         # Main repository documentation
-
+```
 
 ## 📊 Data Source & Replication
 The empirical dataset is derived from the China Biographical Database (CBDB), created through a collaborative effort between Harvard University, Academia Sinica, and Peking University.
