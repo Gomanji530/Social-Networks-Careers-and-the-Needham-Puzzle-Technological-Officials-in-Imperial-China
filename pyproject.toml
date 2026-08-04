@@ -33,7 +33,6 @@ classifiers = [
     "Programming Language :: Python :: 3.11",
 ]
 
-# 项目依赖库（根据论文中用到的分析方法整理）
 dependencies = [
     "numpy>=1.21.0",
     "pandas>=1.3.0",
