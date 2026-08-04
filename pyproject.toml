@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Social Networks, Careers, and the Needham Puzzle: Technological Officials in Imperial China"
+version = "1.0.0"
+description = "This study examines administrative institutions that shaped the career paths and social networks of
+technical officials in imperial China (480–1864). "
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Yuchen Gu", email = "yuchen.gu.25@ucl.ac.uk" }
+]
+keywords = [
+    "computational-social-science",
+    "digital-humanities",
+    "imperial-china",
+    "social-network-analysis",
+    "quantitative-history",
+    "cbdb"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Topic :: Sociology",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+
+# 项目依赖库（根据论文中用到的分析方法整理）
+dependencies = [
+    "numpy>=1.21.0",
+    "pandas>=1.3.0",
+    "scipy>=1.7.0",
+    "statsmodels>=0.13.0",
+    "scikit-learn>=1.0.0",
+    "networkx>=2.6.0",
+    "geopandas>=0.10.0",
+    "shapely>=1.8.0",
+    "matplotlib>=3.4.0",
+    "seaborn>=0.11.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Gomanji530/The-Social-Infrastructure-of-Technical-Knowledge-in-Imperial-China"
+"Repository" = "https://github.com/Gomanji530/The-Social-Infrastructure-of-Technical-Knowledge-in-Imperial-China.git"
+"Bug Tracker" = "https://github.com/Gomanji530/The-Social-Infrastructure-of-Technical-Knowledge-in-Imperial-China/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
