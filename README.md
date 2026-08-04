@@ -43,8 +43,7 @@ The repository structure directly mirrors the analytical workflow and empirical 
 | `Analysis 3_.../` | **V.3 Analysis 3: Career Trajectories & Bureaucratic Ceilings** | Sequence analysis linking postings to technical domains, computing Levenshtein edit distances, weighted $k$-medoids clustering, and high-status access modeling. |
 | `Analysis 4_.../` | **V.4 Analysis 4: Intergenerational Transmission of Technical Skills** | Extraction of father-son kinship pairs from CBDB `KIN_DATA` to model status inheritance via binary logit, benchmarked against civil examination (Jinshi) rates. |
 
----
-
+## 📁 Repository Structure
 .
 ├── Analysis 1_Network_Structure_and_Social_Contagion_Dynamics/
 │   ├── alaam_science_officials.py                    # ALAAM model driver script
