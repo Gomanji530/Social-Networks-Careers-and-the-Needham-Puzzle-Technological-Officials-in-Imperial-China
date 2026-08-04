@@ -86,10 +86,7 @@ The repository structure directly mirrors the analytical workflow and empirical 
 ├── LICENSE                                           # MIT License
 ├── pyproject.toml                                    # Project metadata and dependencies configuration
 └── README.md                                         # Main repository documentation
-│   └── science_official_model_summary.json
-│
-├── CBDB_Publications_List.md
-└── README.md
+
 
 ## 📊 Data Source & Replication
 The empirical dataset is derived from the China Biographical Database (CBDB), created through a collaborative effort between Harvard University, Academia Sinica, and Peking University.
