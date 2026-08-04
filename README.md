@@ -17,7 +17,7 @@ Utilizing the **China Biographical Database (CBDB)** relational SQLite snapshot 
 
 This project is packaged with standard PEP 621 metadata (`pyproject.toml`). You can install the environment and all required dependencies using `pip`:
 
-```bash
+
 # Clone the repository
 git clone [https://github.com/Gomanji530/The-Social-Infrastructure-of-Technical-Knowledge-in-Imperial-China.git](https://github.com/Gomanji530/The-Social-Infrastructure-of-Technical-Knowledge-in-Imperial-China.git)
 cd The-Social-Infrastructure-of-Technical-Knowledge-in-Imperial-China
@@ -92,7 +92,7 @@ The repository structure directly mirrors the analytical workflow and empirical 
 ├── CBDB_Publications_List.md
 └── README.md
 
-📊 Data Source & Replication
+## 📊 Data Source & Replication
 The empirical dataset is derived from the China Biographical Database (CBDB), created through a collaborative effort between Harvard University, Academia Sinica, and Peking University.
 
 To replicate the analyses:
@@ -103,7 +103,7 @@ Place the database file in your local path or configure the connection string in
 
 Execute scripts sequentially according to the analysis modules.
 
-📖 Citation
+## 📖 Citation
 If you use this repository, dataset pipelines, or analytical models in your research, please cite as follows:
 @mastersthesis{gu2026social,
   author       = {Gu, Yuchen},
@@ -115,5 +115,5 @@ If you use this repository, dataset pipelines, or analytical models in your rese
   url          = {[https://github.com/Gomanji530/The-Social-Infrastructure-of-Technical-Knowledge-in-Imperial-China](https://github.com/Gomanji530/The-Social-Infrastructure-of-Technical-Knowledge-in-Imperial-China)}
 }
 
-📜 License
+## 📜 License
 This project is licensed under the MIT License - see the LICENSE file for details.
