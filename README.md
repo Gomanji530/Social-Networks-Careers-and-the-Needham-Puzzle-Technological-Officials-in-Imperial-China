@@ -1,14 +1,33 @@
-# The Social Infrastructure of Technical Knowledge in Imperial China
+# Social Networks, Careers, and the Needham Puzzle: Technological Officials in Imperial China (480–1864)
 
-[![License: MIT](https://img.shields.org/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.9+](https://img.shields.org/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.org/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.9+](https://img.shields.org/badge/python-3.9+-blue.svg)](pyproject.toml)
 [![Data Source: CBDB](https://img.shields.org/badge/Data_Source-CBDB-red.svg)](https://cbdb.hsites.harvard.edu/)
+[![Code Style: Black](https://img.shields.org/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-This repository contains the full data extraction pipelines, quantitative statistical models, and visualization tools for the MSc dissertation: **"The Social Infrastructure of Technical Knowledge in Imperial China"**.
+This repository contains the complete quantitative data pipeline, econometrics models, network analysis, spatial diagnostics, and interactive visualization suite for the MSc dissertation: 
 
-Utilizing the **China Biographical Database (CBDB)** SQLite snapshot (`cbdb_20260516.sqlite3`), this study investigates how scientific and technical personnel in pre-modern China were socially networked, temporally restructured, spatially distributed, bureaucratically promoted, and intergenerationally transmitted across imperial dynasties.
+> **"Social Networks, Careers, and the Needham Puzzle: Technological Officials in Imperial China (480–1864)"**
+
+Utilizing the **China Biographical Database (CBDB)** relational SQLite snapshot (`cbdb_20260516.sqlite3`), this project quantitatively re-evaluates the Needham Question by reconstructing the human and social infrastructure of technical officials across 1,400 years of Chinese history.
 
 ---
+
+## ⚙️ Quick Start & Environment Setup
+
+This project is packaged with standard PEP 621 metadata (`pyproject.toml`). You can install the environment and all required dependencies using `pip`:
+
+```bash
+# Clone the repository
+git clone [https://github.com/Gomanji530/The-Social-Infrastructure-of-Technical-Knowledge-in-Imperial-China.git](https://github.com/Gomanji530/The-Social-Infrastructure-of-Technical-Knowledge-in-Imperial-China.git)
+cd The-Social-Infrastructure-of-Technical-Knowledge-in-Imperial-China
+
+# Create and activate a virtual environment (optional but recommended)
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install project and dependencies
+pip install -e .
 
 ## 📑 Mapping to Thesis Methodology & Structure
 
@@ -26,66 +45,75 @@ The repository structure directly mirrors the analytical workflow and empirical 
 
 ---
 
-## 📁 Detailed Repository Structure
-
-```text
 .
 ├── Analysis 1_Network_Structure_and_Social_Contagion_Dynamics/
-│   ├── alaam_science_officials.py
-│   ├── alaam_science_officials_break3_induced_diagnostics.csv
-│   ├── alaam_science_officials_break3_induced_edges.csv
-│   ├── alaam_science_officials_break3_induced_mple_results.csv
-│   ├── alaam_science_officials_break3_induced_mpnet_attributes.csv
-│   ├── alaam_science_officials_break3_induced_nodes.csv
-│   ├── alaam_science_officials_break3_projection_diagnostics.csv
-│   ├── alaam_science_officials_break3_projection_edges.csv
-│   ├── alaam_science_officials_break3_projection_mple_results.csv
-│   ├── alaam_science_officials_break3_projection_mpnet_attributes.csv
-│   ├── alaam_science_officials_break3_projection_nodes.csv
-│   └── test_alaam_science_officials.py
+│   ├── alaam_science_officials.py                    # ALAAM model driver script
+│   ├── alaam_science_officials_break3_induced_* # Induced subgraph MPLE estimates & matrices
+│   ├── alaam_science_officials_break3_projection_* # Projected network MPLE estimates & matrices
+│   └── test_alaam_science_officials.py               # Unit tests for ALAAM module
 │
 ├── Analysis 2_Spatial_Patterns_and_Knowledge_Diffusion/
-│   ├── spatial_cluster_analysis.py
-│   ├── spatial_cluster_centroid_tests.csv
-│   ├── spatial_cluster_model_diagnostics.csv
-│   ├── spatial_cluster_morans_i.csv
-│   ├── spatial_cluster_multinomial_logit.csv
-│   ├── spatial_cluster_nodes.csv
-│   ├── spatial_cluster_summary.csv
-│   ├── spatial_cluster_top_locations.csv
-│   └── test_spatial_cluster_analysis.py
+│   ├── spatial_cluster_analysis.py                   # Centroids, Moran's I & Multinomial Logit
+│   ├── spatial_cluster_centroid_tests.csv            # Haversine distance shift outputs
+│   ├── spatial_cluster_morans_i.csv                  # Spatial autocorrelation stats
+│   ├── spatial_cluster_multinomial_logit.csv         # Spatial multinomial parameter estimates
+│   └── test_spatial_cluster_analysis.py              # Unit tests for Spatial module
 │
 ├── Analysis 3_Career_Trajectories_and_Bureaucratic_Ceilings/
-│   ├── career_trajectory_analysis.py
-│   ├── career_trajectory_cluster_summary.csv
-│   ├── career_trajectory_high_status_logit.csv
-│   ├── career_trajectory_model_diagnostics.csv
-│   ├── career_trajectory_nodes.csv
-│   ├── career_trajectory_postings.csv
-│   ├── career_trajectory_transition_matrix.csv
-│   ├── career_trajectory_type_medoids.csv
-│   ├── career_trajectory_type_summary.csv
-│   └── test_career_trajectory_analysis.py
+│   ├── career_trajectory_analysis.py                 # Sequence edit distance & k-medoids
+│   ├── career_trajectory_high_status_logit.csv       # High-official promotion odds ratios
+│   ├── career_trajectory_transition_matrix.csv       # Bureau transition matrices
+│   ├── career_trajectory_type_medoids.csv            # Archetypal career path medoids
+│   └── test_career_trajectory_analysis.py            # Unit tests for Career module
 │
 ├── Analysis 4_Intergenerational_Transmission_of_Technical_Skills/
-│   ├── intergenerational_by_cluster.csv
-│   ├── intergenerational_logit.csv
-│   ├── intergenerational_model_diagnostics.csv
-│   ├── intergenerational_summary.csv
-│   ├── intergenerational_transmission_analysis.py
+│   ├── intergenerational_transmission_analysis.py    # Father-son kinship logit estimation
+│   ├── intergenerational_logit.csv                   # Status transmission odds ratios
+│   ├── intergenerational_by_cluster.csv               # Dynastic cluster cross-tabulations
 │   └── test_intergenerational_transmission_analysis.py
 │
 ├── Scientists_network_visualization/
-│   ├── generate_science_network_20260516.py
-│   ├── science_network_data_20260516.json
-│   └── network_20260516.html
+│   ├── generate_science_network_20260516.py          # Data extraction & graph construction
+│   ├── science_network_data_20260516.json            # Graph serialization schema
+│   └── network_20260516.html                         # Standalone interactive D3.js viewer
 │
 ├── Structural_break/
-│   ├── science_official_structural_breaks.py
-│   ├── science_official_model_panel.csv
-│   ├── science_official_model_breaks.csv
-│   ├── science_official_model_segments.csv
+│   ├── science_official_structural_breaks.py         # DP structural break search engine
+│   ├── science_official_model_breaks.csv             # Endogenous break dates & BIC scores
+│   └── science_official_model_summary.json
+│
+├── CBDB_Publications_List.md                         # Reference catalog for CBDB literature
+├── CITATION.cff                                      # Citation metadata file
+├── LICENSE                                           # MIT License
+├── pyproject.toml                                    # Project metadata and dependencies configuration
+└── README.md                                         # Main repository documentation
 │   └── science_official_model_summary.json
 │
 ├── CBDB_Publications_List.md
 └── README.md
+
+📊 Data Source & Replication
+The empirical dataset is derived from the China Biographical Database (CBDB), created through a collaborative effort between Harvard University, Academia Sinica, and Peking University.
+
+To replicate the analyses:
+
+Download the latest SQLite release from the CBDB Official Website.
+
+Place the database file in your local path or configure the connection string inside generate_science_network_20260516.py.
+
+Execute scripts sequentially according to the analysis modules.
+
+📖 Citation
+If you use this repository, dataset pipelines, or analytical models in your research, please cite as follows:
+@mastersthesis{gu2026social,
+  author       = {Gu, Yuchen},
+  title        = {Social Networks, Careers, and the Needham Puzzle: Technological Officials in Imperial China (480--1864)},
+  school       = {University College London},
+  department   = {Department of Physics and Astronomy},
+  year         = {2026},
+  type         = {MSc Dissertation},
+  url          = {[https://github.com/Gomanji530/The-Social-Infrastructure-of-Technical-Knowledge-in-Imperial-China](https://github.com/Gomanji530/The-Social-Infrastructure-of-Technical-Knowledge-in-Imperial-China)}
+}
+
+📜 License
+This project is licensed under the MIT License - see the LICENSE file for details.
