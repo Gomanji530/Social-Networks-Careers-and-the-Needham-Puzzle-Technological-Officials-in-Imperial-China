@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software or research material, please cite it as below."
+authors:
+  - family-names: "Gu"
+    given-names: "Yuchen"
+    orcid: ""
+title: "Social Networks Careers and the Needham Puzzle Technological Officials in Imperial-China"
+version: "1.0.0"
+date-released: 2026-08-20
+url: "https://github.com/Gomanji530/The-Social-Infrastructure-of-Technical-Knowledge-in-Imperial-China"
+repository-code: "https://github.com/Gomanji530/The-Social-Infrastructure-of-Technical-Knowledge-in-Imperial-China"
+type: thesis
+thesis-type: "Master's dissertation"
+institution:
+  name: "University College London"
+  department: "Department of Physics and Astronomy"
